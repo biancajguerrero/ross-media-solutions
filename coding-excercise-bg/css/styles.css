@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+body a {
+	color: #fff;
+}
+
+.fa.fa-navicon {
+  color:white;
+}
+
+.btn-primary {
+	background-color:#00FFF1;
+	border:1px solid #00FFF1;
+	color: #000;
+	text-shadow: 0 0 20px #00FFF1, 0 0 20px #00FFF1, 0 0 30px #00FFF1, 0 0 40px #00FFF1, 0 0 50px #00FFF1, 0 0 60px #00FFF1, 0 0 70px #00FFF1;
+}
+
+.btn-outline-primary {
+	border:1px solid #fff;
+	color: #fff;
+}
+
+.navbar {
+	background-color: #223047;
+	border-bottom: .4px solid #CFCFCF;
+}
+
+/* top section */
+.top {
+	background-color: #223047;
+	color: #fff;
+	position: relative;
+}
+
+.imageside img {
+	position: absolute;
+	top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+.top  {
+	display:block;
+	position:relative;
+
+}
+
+.imageside img {
+ position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+.btnside {
+	padding:5em;
+}
+
+.btnside h1 {
+	padding-bottom: 1em;
+}
+
+.btnside p {
+	padding-bottom: 1em;
+}
+
+/* second section */
+.second h2 {
+	padding-top: 5em;
+	padding-bottom:2em;
+	padding-right: 5em;
+	padding-left: 5em;
+	color: #151515;
+	font-size: 25px;
+}
+
+hr {
+	border: 1px solid #00fff0;
+}
+
+/* card section */
+.card-deck {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.card img {
+	width: 50%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+/* third section */
+.contentside {
+	padding:4rem;
+	background-color: #f5f6fa;
+}
+
+.colorside {
+	background-color: #323a4d;
+}
+
+/* fourth section */
+.fourth {
+	padding: 5em;
+}
+
+.fourth h2 {
+	padding-bottom: 1em;
+}
+
+.fourth p {
+	padding-bottom: 1em;
+}
+
+/* fifth section */
+.fifth {
+	background-color: #223047;
+	color: #00fff0;
+	padding:5rem;
+}
+
+/*sixth section */
+.sixth {
+	padding: 5em;
+	background-color: #f5f6fa;
+	position: relative;
+}
+
+.sixth img {
+	float: right;
+}
+
+.contentside img {
+	float: left;
+}
+
+.sixth h3 {
+	padding-top: 2em;
+	padding-bottom: 10px;
+}
+
+/* button overlap section */
+.section-overlap {
+	position: relative;
+	margin: 0 auto;
+}
+
+.buttonz {
+	position: absolute;
+	bottom:-22.5px;
+	text-align: center;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+	background-color:#00fff1;
+}
+
+/* seventh section */
+.seventh {
+	padding-top: 5em;
+	padding-bottom: 5em;
+	text-align: center;
+	margin: auto;
+}
+textarea.form-control {
+color: #63AEEB
+}
+
+
+footer { 
+background-color: #223047;
+color: #fff;
+}
+
+input[type="text"], textarea {
+  background-color : #f5f6fa; 
+  border: 1px solid #f5f6fa;
+}
+
